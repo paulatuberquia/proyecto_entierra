@@ -11,6 +11,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 import Home from './componentes/home/Home';
 import Nosotros from './componentes/nosotros/Nosotros';
 import Servicios from './componentes/servicios/Servicios';
+import Listaprecios from './componentes/listaprecios/Listasprecios';
 import Contacto from './componentes/contacto/Contacto';
 
 
@@ -22,6 +23,7 @@ ReactDOM.render(
     < Route exact path = '/' component = { Home }/>
      < Route path = '/nosotros' component = { Nosotros } /> 
      <Route path = '/servicios' component = { Servicios } /> 
+     <Route path = '/listaprecios' component = { Listaprecios } /> 
      <Route path = '/contacto' component = { Contacto }/> 
      </Switch> 
      </div> 
